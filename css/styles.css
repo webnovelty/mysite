@@ -44,7 +44,7 @@ nav {
   display: block;
   float: left;
   list-style: none;
-  margin: 0 155.65px 0 0;
+  margin: 0 155.65px 31.92px 0;
   padding: 0;
   position: relative;
   right: 50%;
@@ -58,8 +58,6 @@ nav {
   text-decoration: none;
   line-height: 1.3em;
 }
-.top-menu ul li a:hover {
-}
 .top-menu ul li a.active,
 .top-menu ul li a.active:hover {
   color: #070707;
@@ -69,4 +67,67 @@ nav {
 }
 .menu_last {
   margin-right: 0px;
+}
+.zagolovok {
+  font-family: 'Gilroy';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+}
+
+.part_grey {
+  color: #828282;
+}
+.middle_zagolovok {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+.bblock1 {
+  float: left; /*Задаем обтекание*/
+
+  padding: 10px;
+  margin-right: 5px;
+  text-align: center; /*Центрируем текст по горизонтали*/
+}
+
+.bblock2 {
+  padding: 10px;
+  margin-right: 5px;
+  margin: 0 10px 0 0;
+  text-align: center; /*Центрируем текст по горизонтали*/
+}
+.bblock3 {
+  font-family: 'Gilroy';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #070707;
+  transform: rotate(-90deg);
+  padding: 10px;
+  margin-right: 5px;
+  text-align: center; /*Центрируем текст по горизонтали*/
+}
+.bblock4 {
+  text-align: center; /*Центрируем текст по горизонтали*/
+}
+.hero {
+  /* margin: 39.69px, 0, 0, 0; */
+  width: 100%;
+  height: 1px;
+  clear: both;
+}
+.hero_item {
+  width: 500px;
+
+  float: left;
+  margin: 0 15px 15px 0;
+  text-align: center;
+  padding: 10px;
 }
